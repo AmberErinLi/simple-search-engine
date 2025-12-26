@@ -16,24 +16,33 @@ This is a **Java-based search engine** that demonstrates indexing, ranking, and 
 ## 📂 Repository Structure
 The project is organized as follows:
 
-/simple-search-engine
-├── src/ # Java source code
-│ ├── Media.java # Interface representing generic media (books, movies, etc.)
-│ ├── Book.java # Class representing a Book implementing Media
-│ ├── SearchClient.java # Handles indexing and search queries
-│ └── Testing.java # JUnit tests for all classes and methods
-├── books/ # Sample book text files used for testing
-│ ├── Dracula.txt
-│ ├── Frankenstein; Or, the Modern Prometheus.txt
-│ ├── Gulliver's Travels into Several Remote Nations of the World.txt
-│ ├── Romeo and Juliet.txt
-│ ├── The Great Gatsby.txt
-│ ├── The Picture of Dorian Gray.txt
-│ ├── The War of the Worlds.txt
-│ ├── Treasure Island.txt
-│ └── Winnie-the-Pooh.txt
-├── README.md # Project overview and instructions
-└── .gitignore # Ignore compiled files and IDE artifacts
+```text
+simple-search-engine/
+├── src/                          # Java source code
+│   ├── Media.java                # Interface for generic media
+│   ├── Book.java                 # Book implementation
+│   ├── SearchClient.java         # Indexing and search logic
+│   └── Testing.java              # JUnit test suite
+├── books/                        # Data directory (see list below)
+├── README.md                     # Project overview
+└── .gitignore                    # Git exclusions
+```
+<details>
+<summary><b>Click to view all files in /books</b></summary>
+   
+```text
+books/
+├── Dracula.txt
+├── Frankenstein.txt
+├── Gulliver's Travels.txt
+├── Romeo and Juliet.txt
+├── The Great Gatsby.txt
+├── The Picture of Dorian Gray.txt
+├── The War of the Worlds.txt
+├── Treasure Island.txt
+└── Winnie-the-Pooh.txt
+```
+</details>
 
 ---
 
