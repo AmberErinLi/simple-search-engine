@@ -61,4 +61,4 @@ The project is organized as follows:
    git clone https://github.com/amberli/simple-search-engine.git
 2. Open in Visual Studio Code (or your preferred IDE) and ensure the src/ folder is recognized as the source directory.
 3. Run the main() method in SearchClient.java. This will execute the search engine using the sample books in the data/ folder. You can modify the queries or add more books to test different scenarios.
-4. (Optional) Run Testing.java to verify correctness using JUnit tests.
+4. **(Optional)** Run Testing.java to verify correctness using JUnit tests.
