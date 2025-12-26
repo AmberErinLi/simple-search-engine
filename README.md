@@ -14,13 +14,26 @@ This is a **Java-based search engine** that demonstrates indexing, ranking, and 
 ---
 
 ## 📂 Repository Structure
+The project is organized as follows:
+
 /simple-search-engine
 ├── src/ # Java source code
-│ ├── Book.java
-│ ├── SearchClient.java
-│ └── Testing.java
-├── README.md
-└── (other resources, e.g., book content files)
+│ ├── Media.java # Interface representing generic media (books, movies, etc.)
+│ ├── Book.java # Class representing a Book implementing Media
+│ ├── SearchClient.java # Handles indexing and search queries
+│ └── Testing.java # JUnit tests for all classes and methods
+├── books/ # Sample book text files used for testing
+│ ├── Dracula.txt
+│ ├── Frankenstein; Or, the Modern Prometheus.txt
+│ ├── Gulliver's Travels into Several Remote Nations of the World.txt
+│ ├── Romeo and Juliet.txt
+│ ├── The Great Gatsby.txt
+│ ├── The Picture of Dorian Gray.txt
+│ ├── The War of the Worlds.txt
+│ ├── Treasure Island.txt
+│ └── Winnie-the-Pooh.txt
+├── README.md # Project overview and instructions
+└── .gitignore # Ignore compiled files and IDE artifacts
 
 ---
 
@@ -39,3 +52,13 @@ This is a **Java-based search engine** that demonstrates indexing, ranking, and 
 - Inverted indexing and search algorithms
 - Test-driven development with JUnit
 
+---
+
+## 🔗 Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/amberli/simple-search-engine.git
+2. Open in Visual Studio Code (or your preferred IDE) and ensure the src/ folder is recognized as the source directory.
+3. Run the main() method in SearchClient.java. This will execute the search engine using the sample books in the data/ folder. You can modify the queries or add more books to test different scenarios.
+4. (Optional) Run Testing.java to verify correctness using JUnit tests.
