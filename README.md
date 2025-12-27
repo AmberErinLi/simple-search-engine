@@ -18,12 +18,12 @@ The project is organized as follows:
 
 ```text
 simple-search-engine/
+├── books/                        # Book directory (see list below)
 ├── src/                          # Java source code
-│   ├── Media.java                # Interface for generic media
 │   ├── Book.java                 # Book implementation
+│   ├── Media.java                # Interface for generic media
 │   ├── SearchClient.java         # Indexing and search logic
 │   └── Testing.java              # JUnit test suite
-├── books/                        # Data directory (see list below)
 ├── README.md                     # Project overview
 └── .gitignore                    # Git exclusions
 ```
@@ -32,9 +32,10 @@ simple-search-engine/
    
 ```text
 books/
+├── Alice's Adventures in Wonderland.txt
 ├── Dracula.txt
 ├── Frankenstein.txt
-├── Gulliver's Travels.txt
+├── Gulliver's Travels into Several Remote Nations of the World.txt
 ├── Romeo and Juliet.txt
 ├── The Great Gatsby.txt
 ├── The Picture of Dorian Gray.txt
